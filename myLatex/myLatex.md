@@ -29,9 +29,9 @@
 - $\pm, \mp$
 - $>, <, \le, \ge, \gg, \ll, \ne, \approx, \equiv$
 - $\cap, \cup, \in, \notin, \subseteq, \subseteqq, \varnothing$
-- $\forall, \exist$
+- $\forall, \exists$
 - $\because, \therefore$
-- $\R, \mathbb Q, \Z$
+- $\mathbb R, \mathbb Q, \mathbb Z$
 - $\mathcal F, \mathscr F$
 - $\cdots, \vdots, \ddots$
 - $\infty, \partial, \nabla, \degree, \propto$
@@ -135,6 +135,6 @@ $$
 \begin{align}
 \vec B \left( \vec{r} \right) &= \frac{\mu_0}{4\pi} \oint_C \frac{I \, {\rm d} \vec l \times \vec{R}}{R^3}\\
 &= \frac{\mu_0}{4\pi} \int_V \frac{\vec{J_v} \times \vec R}{R^3}\, {\rm d}V'
-    
+
 \end{align}
 $$
