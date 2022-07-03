@@ -90,4 +90,65 @@
 1. `vector<T> v1;`
 2. `vector<T> v2(v1.begin(), v1.end());` 前闭后开
 
-### 3.2.3 赋值操作
+### 3.2.3 vector赋值操作
+
+### 3.2.4 vector容量和大小
+
+1. empty();             判断容器是否为空，空为1
+2. capacity();          容器的容量
+3. size();              返回容器中元素的个数
+4. resize(int num);     重新指定大小
+
+### 3.2.5 vector插入和删除
+
+1. push_back();         尾部插入
+2. pop_back();          删除最后一个元素
+3. insert(pos, ele);    指定位置插入元素ele
+4. erase(pos);          删除指定位置元素
+5. clear();             删除所有
+
+### 3.2.6 vector数据存取
+
+- a[i]      第i个元素
+
+### 3.2.7 vector互换容器
+
+- 函数原型：swap(vec);
+
+### 3.2.8 vector预留空间
+
+- reserve(int len);
+
+## 3.3 deque容器
+
+### 3.3.1 deque容器基本概念
+
+#### 作用
+
+- 双端数组，可以对头端进行插入删除操作
+
+#### deque与vector区别
+
+1. vector对于头部的插入删除效率低，数据量越大，效率越低
+2. deque对头部的插入删除速度会比vector快
+3. vector访问元素时的速度会比deque快
+
+### 3.3.2 deque构造函数
+
+### 3.3.3 deque赋值操作
+
+### 3.3.4 deque大小操作
+
+- deque没有容量的概念
+
+### 3.3.5 deque插入和删除
+
+- 插入和删除提供的位置是迭代器，索引没有用
+
+### 3.3.6 deque数据存取
+
+### 3.3.7 deque排序
+
+- sort(iterator beg, iterator end);
+
+## 3.4 案例-评委打分
